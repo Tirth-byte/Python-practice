@@ -1,0 +1,19 @@
+# secrets — never commit
+.env
+.env.*
+
+# os
+.DS_Store
+
+# editors
+.idea/
+.vscode/
+
+# dependencies
+node_modules/
+
+# builds
+.next/
+out/
+build/
+*.tsbuildinfo

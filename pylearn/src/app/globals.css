@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+:root {
+  /* Font Family Definitions */
+  --font-fraunces: "Outfit", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Surfaces — Udemy Clean Theme */
+  --paper: #FFFFFF;  /* page background */
+  --surface: #FFFFFF;  /* cards */
+  --surface-sink: #F8F9FA;  /* insets, subtle sections */
+  --line: #D1D7DC;  /* Udemy hairline gray borders */
+  --line-strong: #6A6F73;
+
+  /* Ink — solid black-gray text */
+  --ink: #1C1D1F;  /* primary text + primary buttons */
+  --ink-2: #2D2F31;  /* body secondary */
+  --ink-3: #6A6F73;  /* muted / captions */
+
+  /* Signature accent — Udemy Purple #A435F0 */
+  --gold: #A435F0;
+  --gold-soft: #F6EBFF;  /* tinted backgrounds */
+  --gold-ink: #A435F0;  /* stays readable on white */
+
+  /* Support */
+  --green: #1C824E;  /* success, correct */
+  --green-soft: #EBF8F1;
+  --red: #C33B27;  /* errors, wrong answers */
+  --red-soft: #FDF1EE;
+  --blue: #5624D0;  /* secondary links / school-track accent */
+
+  /* Dark surfaces — editor & player */
+  --code-bg: #1C1D1F;
+  --code-surface: #2D2F31;
+  --code-line: #3E4143;
+  --code-text: #FFFFFF;
+  --code-muted: #9C9EA6;
+
+  /* Border radius (Udemy uses sharper corners) */
+  --r-sm: 4px;
+  --r: 6px;
+  --r-lg: 8px;
+  --r-xl: 12px;
+  
+  /* Shadow */
+  --shadow-custom: 0 4px 16px rgba(28, 29, 31, 0.08);
+}
+
+@theme {
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-surface-sink: var(--surface-sink);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-gold-ink: var(--gold-ink);
+
+  --color-green: var(--green);
+  --color-green-soft: var(--green-soft);
+  --color-red: var(--red);
+  --color-red-soft: var(--red-soft);
+  --color-blue: var(--blue);
+
+  --color-code-bg: var(--code-bg);
+  --color-code-surface: var(--code-surface);
+  --color-code-line: var(--code-line);
+  --color-code-text: var(--code-text);
+  --color-code-muted: var(--code-muted);
+
+  --font-display: var(--font-fraunces), sans-serif;
+  --font-sans: var(--font-inter), sans-serif;
+  --font-mono: var(--font-mono), monospace;
+
+  --radius-sm: var(--r-sm);
+  --radius-md: var(--r);
+  --radius-lg: var(--r-lg);
+  --radius-xl: var(--r-xl);
+
+  --shadow-custom: var(--shadow-custom);
+}
+
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-inter), sans-serif;
+}
+
+/* Custom heading utilities */
+.font-fraunces {
+  font-family: var(--font-fraunces), sans-serif;
+}
+
+/* Font Scale Styles */
+.text-scale-display {
+  font-size: 3.5rem; /* 56px */
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.text-scale-h1 {
+  font-size: 2.25rem; /* 36px */
+  line-height: 1.1;
+}
+
+.text-scale-h2 {
+  font-size: 1.625rem; /* 26px */
+  line-height: 1.2;
+}
+
+.text-scale-h3 {
+  font-size: 1.1875rem; /* 19px */
+  line-height: 1.3;
+}
+
+.text-scale-body {
+  font-size: 1rem; /* 16px */
+  line-height: 1.6;
+}
+
+.text-scale-small {
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.5;
+}
+
+.text-scale-micro {
+  font-size: 0.78125rem; /* 12.5px */
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}

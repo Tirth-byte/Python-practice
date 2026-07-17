@@ -1,0 +1,101 @@
+[
+  {
+    "id": "user-aditi",
+    "name": "Aditi M.",
+    "email": "aditi@pylearn.dev",
+    "password": "password",
+    "track": "school",
+    "level": 7,
+    "xp": 1420,
+    "streak": 12,
+    "completedLessons": [
+      "c1-l1",
+      "c1-l2",
+      "c2-l1",
+      "c2-l2"
+    ],
+    "completedProjects": [
+      "tip-calculator"
+    ]
+  },
+  {
+    "id": "user-shivam",
+    "name": "Shivam P.",
+    "email": "shivam@pylearn.dev",
+    "password": "password",
+    "track": "graduate",
+    "level": 9,
+    "xp": 1180,
+    "streak": 24,
+    "completedLessons": [
+      "c1-l1",
+      "c1-l2",
+      "c1-l3",
+      "c1-l4",
+      "c2-l1",
+      "c2-l2",
+      "c2-l3"
+    ],
+    "completedProjects": [
+      "number-guessing",
+      "rock-paper-scissors"
+    ]
+  },
+  {
+    "id": "user-riya",
+    "name": "Riya S.",
+    "email": "riya@pylearn.dev",
+    "password": "password",
+    "track": "school",
+    "level": 5,
+    "xp": 610,
+    "streak": 40,
+    "completedLessons": [
+      "c1-l1",
+      "c1-l2"
+    ],
+    "completedProjects": []
+  },
+  {
+    "id": "user-karan",
+    "name": "Karan D.",
+    "email": "karan@pylearn.dev",
+    "password": "password",
+    "track": "school",
+    "level": 4,
+    "xp": 540,
+    "streak": 4,
+    "completedLessons": [
+      "c1-l1"
+    ],
+    "completedProjects": []
+  },
+  {
+    "id": "user-demo",
+    "name": "Demo User",
+    "email": "demo@pylearn.dev",
+    "password": "password",
+    "track": "graduate",
+    "level": 6,
+    "xp": 640,
+    "streak": 15,
+    "completedLessons": [
+      "c1-l1",
+      "c1-l2",
+      "c2-l1"
+    ],
+    "completedProjects": []
+  },
+  {
+    "id": "user-1784178556212",
+    "name": "tirth",
+    "email": "tirthkavar5@gmail.com",
+    "password": "TIRTH1000",
+    "track": "graduate",
+    "level": 1,
+    "xp": 0,
+    "streak": 1,
+    "completedLessons": [],
+    "completedProjects": []
+  }
+]
